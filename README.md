@@ -1,10 +1,11 @@
 # VagaDesenvolvimentoWebTesteLife
 
 Database.php foi alterado para:
-        $this->ip = 'localhost';
-        $this->user = 'root';
-        $this->password = '';
-        $this->database = 'avaliacao';
+
+    $this->ip = 'localhost';
+    $this->user = 'root';
+    $this->password = '';
+    $this->database = 'avaliacao';
 
  
 
@@ -45,3 +46,4 @@ foi adicionado as seguiintes tabelas
     data_cadastro DATE,
     placa varchar(7),
     vel_maxima REAL)
+
